@@ -44,7 +44,7 @@ deploy:
 `npm run deploy` 会把 `public/` 的内容推到 `liaozhiq.github.io` 仓库的 `master` 分支，也就是线上站点。
 推送需要本地有该仓库的写权限（HTTPS 需要凭据，或改用 SSH 地址）。
 
-源码本身单独用一个仓库保存，本仓库的 `origin` 已经指向 `https://github.com/liaozhiq/liaozhihexo.git`。
+源码本身单独用一个仓库保存，本仓库的 `origin` 已经指向 `https://github.com/liaozhiq/liaozhiqhexo.git`。
 该仓库需要先在 GitHub 上建好（**建成空仓库，不要勾选 README / .gitignore / license**，
 否则远端会有初始提交，首次推送要先合并），然后：
 
