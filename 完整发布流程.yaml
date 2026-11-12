@@ -1,0 +1,11 @@
+完整发布流程：
+
+控制台命令：npx hexo new post --path 2026.md "markdown 怎么玩"
+# 编辑文章和标签
+
+npm run build
+git add -A
+git commit -m "add markdown article"
+git push
+
+控制台命令：npm run deploy
